@@ -43,7 +43,6 @@ class BasmaOnlineApplicationTests {
 		userEntity.setFirstName("akram");
 		userEntity.setLastName("akram");
 		UserEntity userUpdated1 = userRepository.save(userEntity);
-		assertThat(userEntity).isNotNull();
 	}
 
 }
